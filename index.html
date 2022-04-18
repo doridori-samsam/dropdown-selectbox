@@ -37,28 +37,34 @@
        
         $('#arrow').click(function(){
             $('ul.list').toggle('slow');
+            $('.selected').css("border", "1px solid #9b51e0"); 
            
         });
       
        $('.python').click(function(){
         $('.selected-value').text('Python');
         $('.list').hide();
+        $('.selected').css("border", "1px solid #c4c4c4");
     });  
     $('.java').click(function(){
         $('.selected-value').text('Java');
         $('.list').hide();
+        $('.selected').css("border", "1px solid #c4c4c4");
     });  
     $('.js').click(function(){
         $('.selected-value').text('JavaScript');
         $('.list').hide();
+        $('.selected').css("border", "1px solid #c4c4c4");
     });  
     $('.c-sharp').click(function(){
         $('.selected-value').text('C#');
         $('.list').hide();
+        $('.selected').css("border", "1px solid #c4c4c4");
     });  
     $('.c-plus').click(function(){
         $('.selected-value').text('C/C++');
         $('.list').hide();
+        $('.selected').css("border", "1px solid #c4c4c4");
     });  
       
        
