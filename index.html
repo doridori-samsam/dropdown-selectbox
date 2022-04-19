@@ -39,6 +39,8 @@
     $('#arrow').click(function(){
         $('ul.list').toggle('slow');
         $('.selected').css("border", "1px solid #9b51e0");
+        $('.selected').css({'outline': '3px solid #f8e4ff'});
+
 
     });
 
@@ -46,7 +48,6 @@
         $('.selected-value').text('Python');
         $('.list').hide();
         $('.selected').css("border", "1px solid #c4c4c4");
-        // $('.btn').css({"background" : "url(Polygon1.png)", "background-repeat" : "no-repeat"});
         $("input:checkbox[id='arrow']").prop("checked", false);
     });  
     $('.java').click(function(){
@@ -54,24 +55,28 @@
         $('.list').hide();
         $('.selected').css("border", "1px solid #c4c4c4");
         $("input:checkbox[id='arrow']").prop("checked", false);
+        $('.selected').css({'outline': 'none'});
     });  
     $('.js').click(function(){
         $('.selected-value').text('JavaScript');
         $('.list').hide();
         $('.selected').css("border", "1px solid #c4c4c4");
         $("input:checkbox[id='arrow']").prop("checked", false);
+        $('.selected').css({'outline': 'none'});
     });  
     $('.c-sharp').click(function(){
         $('.selected-value').text('C#');
         $('.list').hide();
         $('.selected').css("border", "1px solid #c4c4c4");
         $("input:checkbox[id='arrow']").prop("checked", false);
+        $('.selected').css({'outline': 'none'});
     });  
     $('.c-plus').click(function(){
         $('.selected-value').text('C/C++');
         $('.list').hide();
         $('.selected').css("border", "1px solid #c4c4c4");
         $("input:checkbox[id='arrow']").prop("checked", false);
+        $('.selected').css({'outline': 'none'});
     });  
     </script>
 </body>
