@@ -105,7 +105,7 @@ ul.list{
     width:200px;
     height:auto;
     margin: 0;
-    margin-top: 9px;
+    margin-top: 9px; /*height, margin값 없어도 되는지 check 하기 */
     border:1px solid #c4c4c4;
     box-sizing: border-box;
     border-radius:10px;
