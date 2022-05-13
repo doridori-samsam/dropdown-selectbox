@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>구현실습 dropdown select box</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+            <article class="selection">
+            <button class="select-btn" name="title" value="fav-lang">최애 프로그래밍 언어</button>
+            <div class="option">
+            <ul class="list">
+                <li class="python">Python</li>
+                <li class="java">Java</li>  
+                <li class="js">JavaScript</li>
+                <li class="c-sharp">C#</li>
+                <li class="c-plus">C/C++</li>
+            </ul>
+            </div>
+        </article>
+    </main>
+    <marquee>부족하지만 예쁘게 봐주세요 만드느라 힘들었어요..js1도 몰라요..</marquee>
+    <script type="text/javascript" src="index.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>
+    
+    $('#arrow').click(function(){
+        $('ul.list').toggle('slow');
+        $('.selected').css("border", "1px solid #9b51e0");
+        $('.selected').css({'outline': '3px solid #f8e4ff'});
+
+    });
+
+
+    $('.python').click(function(){
+        $('.selected-value').text('Python');
+        $('.list').hide();
+        $('.selected').css("border", "1px solid #c4c4c4");
+        $("input:checkbox[id='arrow']").prop("checked", false);
+        $('.selected').css({'outline': 'none'});
+    });  
+    $('.java').click(function(){
+        $('.selected-value').text('Java');
+        $('.list').hide();
+        $('.selected').css("border", "1px solid #c4c4c4");
+        $("input:checkbox[id='arrow']").prop("checked", false);
+        $('.selected').css({'outline': 'none'});
+    });  
+    $('.js').click(function(){
+        $('.selected-value').text('JavaScript');
+        $('.list').hide();
+        $('.selected').css("border", "1px solid #c4c4c4");
+        $("input:checkbox[id='arrow']").prop("checked", false);
+        $('.selected').css({'outline': 'none'});
+    });  
+    $('.c-sharp').click(function(){
+        $('.selected-value').text('C#');
+        $('.list').hide();
+        $('.selected').css("border", "1px solid #c4c4c4");
+        $("input:checkbox[id='arrow']").prop("checked", false);
+        $('.selected').css({'outline': 'none'});
+    });  
+    $('.c-plus').click(function(){
+        $('.selected-value').text('C/C++');
+        $('.list').hide();
+        $('.selected').css("border", "1px solid #c4c4c4");
+        $("input:checkbox[id='arrow']").prop("checked", false);
+        $('.selected').css({'outline': 'none'});
+    });  
+
+    $('.page').click(function(e){
+    if( !$('.selection').has(e.target).length ) $('.list').hide(), $('.selected').css({'outline': 'none'}),$('.selected').css("border", "1px solid #c4c4c4"),
+    $("input:checkbox[id='arrow']").prop("checked", false);
+    
+});
+    </script> -->
+
+</body>
+</html>
