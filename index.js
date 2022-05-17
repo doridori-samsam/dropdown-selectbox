@@ -31,3 +31,6 @@ firstbox.addEventListener('click', () => {
         document.querySelector("button").style.outlineColor = "transparent";
         document.querySelector("button").style.backgroundImage = "URL('Polygon1.png')";
     });
+
+//스타일 변경은 JS로 컨트롤 하게 되면, html의 인라인으로 들어가기 때문에 이런 사용은 지양하기.
+//변수명은 알아보기 쉽게 작성하기
